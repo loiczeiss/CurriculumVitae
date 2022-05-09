@@ -1,0 +1,50 @@
+body { 
+    background-color: white;
+    
+}
+
+h1 { text-align: center;}
+
+.grid { 
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+    
+}
+.info {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-color: beige;
+    border: solid 2px black;
+
+}
+.perso { grid-column: 2/3;
+grid-row: 1/2;
+border: solid 2px black;}
+
+.childa {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row: 2/ span 1;
+    border: solid 2px black;
+}
+
+.child {grid-column: 1/2;
+grid-row: 2/3;
+background-color: beige;
+border: solid 2px black;}
+
+.par {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    background-color: beige;
+    border: solid 2px black;
+}
+
+.pro {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    border: solid 2px black;}
+    
