@@ -66,34 +66,35 @@ font-family: 'Open Sans', sans-serif;
             text-decoration: underline;
 
         }     
-        .loic {grid-area: ;
+        .loic {grid-area: 3/2/4/3;
+            
+   
             text-align: left;
-            text-decoration: underline;
 
         }
-        .zeiss{grid-area: ;
+        .zeiss{grid-area: 4/2/5/3;
             text-align: left;
-            text-decoration: underline;
+            
 
         }
-        .an{grid-area: ;
+        .an{grid-area: 5/2/6/3;
             text-align: left;
-            text-decoration: underline;
+          
 
         }
-        .masculin{grid-area: ;
+        .masculin{grid-area: 6/2/7/3;
             text-align: left;
-            text-decoration: underline;
+         
 
         }
-        .belge{grid-area: ;
+        .belge{grid-area: 7/2/8/3;
             text-align: left;
-            text-decoration: underline;
+         
 
         }
-        .ave { grid-area: ;
+        .ave { grid-area: 8/2/9/3;
             text-align: left;
-            text-decoration: underline;
+            padding-top: 5px;
 
         }
 }
