@@ -97,6 +97,12 @@ font-family: 'Open Sans', sans-serif;
             padding-top: 5px;
 
         }
+        .educ {
+            grid-area: 9/1/10/3;
+            margin: auto;
+            font-size: 20px;
+            text-decoration: underline;
+        }
 }
 
 .container { 
